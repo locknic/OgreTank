@@ -1,0 +1,4 @@
+Best features: The game looks nice.
+Bug: The bullets should have a bit more of an arch.
+Suggested Features: Swerve the tank a bit more for the AI. . Change up the directional movements for the player tank.
+Overall: The game looks appealing but should have some more interesting gameplay features.

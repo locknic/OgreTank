@@ -1,0 +1,96 @@
+PlayerScore
+{
+    zorder 100
+	
+    container Panel(PlayerScore/Panel)
+    {
+      metrics_mode relative
+
+      left 0.35
+      top 0.1
+      width 0.1
+      height 0.2
+	  
+		element TextArea(PlayerScore/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.10
+         colour 0 0.6 1
+         caption 0
+		}
+    }
+}
+
+ComputerScore
+{
+    zorder 200
+	
+    container Panel(ComputerScore/Panel)
+    {
+      metrics_mode relative
+
+      left 0.60
+      top 0.1
+      width 0.1
+      height 0.2
+	  
+		element TextArea(ComputerScore/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0
+		 top 0
+         font_name BlueHighwayBig
+         char_height 0.1
+         colour 1 0.4 0
+         caption 0
+		}
+    }
+}
+
+
+
+// Sample/Overlay1   // You can name this anything you like.  
+// {
+    // container Panel(Sample/Overlay1/Panel) //  You can name this anything you like.  The directory-like structure is purely optional
+    // {
+
+		// material BlueSemiTran
+		
+		// left 0.1
+		// top 0.3
+		// width 0.8
+		// height 0.4
+
+		
+	  	// element TextArea(Sample/TextArea1)
+		// {
+		// metrics_mode relative
+		
+         // left 0.1
+		 // top 0.05
+         // font_name BlueHighwayBig
+         // char_height 0.05
+         // colour 1 1 1
+         // caption Sample Text Here
+		// }
+		
+		// element TextArea(Sample/TextArea2)
+		// {
+		// metrics_mode relative
+		
+         // left 0.1
+		 // top 0.2
+         // font_name BlueHighwayBig
+         // char_height 0.05
+         // colour 1 1 1
+         // caption More Sample Text Here
+		// }
+		
+		
+    // }   
+// }
